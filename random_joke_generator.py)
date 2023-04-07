@@ -1,0 +1,12 @@
+import random
+
+jokes = [
+    "Why did the tomato turn red? Because it saw the salad dressing!",
+    "Why do chicken coops only have two doors? Because if they had four, they would be a chicken sedan!",
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "Why did the coffee file a police report? It got mugged!",
+    "Why was the math book sad? Because it had too many problems.",
+]
+
+random_joke = random.choice(jokes)
+print(random_joke)
